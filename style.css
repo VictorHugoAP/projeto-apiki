@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	background: #E6E6E6;
+}
+
+.caixa{
+	position: relative;
+	width: 990px;
+	margin: 0 auto;
+}
+
+h1 img{
+	position: absolute;
+	width: 230px;
+	top: 35px;
+}
+nav {
+	position: absolute;
+	top: 55px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin-left: 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #6E6E6E;
+	text-decoration: underline;
+}
+
+main{
+	width: 1050px;	
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+main h1{
+	text-align: center;
+	margin: 0 auto;
+	margin: 10px 0px 0px 0px;
+
+}
+
+main p{
+	padding: 0px 15px 0px 30px;
+	text-align: justify;
+}
+
+
+.tituloPrincipal{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	clear: left;
+}
+
+.video {
+	width: 450px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 15px;
+}
+
+.localizacao{
+	margin-top: 60px;
+}
+
+.mapa{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+footer{
+	width: 100%;
+	height: 180px;
+	background: #E6E6E6;
+}
+
+.direitosAutorais{
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+	top: 85px;
+}
+
+.negrito{
+	font-weight: bold;
+}
+
+/* CSS Página de Qualidade */
+
+.principal{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.itens{
+	display: inline-block;
+	width: 220px;
+	height: 300px;
+	border: 2px solid #000000;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+.itens:hover{
+	background: #A4A4A4;
+	color: white;
+	cursor: pointer;
+}
+
+section div img{
+	width: 100%;
+	height: 200px;
+}
+
+.nome{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 30px;
+	position: relative;
+	left: -10px;
+}
